@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="default.css" />
     <title>Igal Bogopolsky</title>
+    <link rel="stylesheet" type="text/css" href="default.css" />
     <link id="theme-style" rel="stylesheet" type="text/css" href="" />
   </head>
 
@@ -29,7 +29,7 @@
               <div id="dot-3" class="browser-dot"></div>
             </div>
             <ul id="navigation">
-              <li><a href="#">Contact</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
           <div class="left-column">
@@ -218,13 +218,22 @@
     <section class="s2">
       <div class="main-container">
         <h3 style="text-align: center">Get In Touch</h3>
-        <form id="contact-form">
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/igalbog@gmail.com"
+          method="POST"
+        >
           <label>Name</label>
           <input class="input-field" type="text" name="name" />
           <label>Subject</label>
-          <input class="input-field" type="text" name="subject" />
+          <input class="input-field" type="text" name="_subject" />
           <label>Email</label>
           <input class="input-field" type="text" name="email" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://www.igal.co/thankyou.html"
+          />
           <label>Message</label>
           <textarea class="input-field" name="message"></textarea>
 
