@@ -244,14 +244,14 @@ h6 {
 
 #preview-shadow {
   background-color: var(--previewShadow);
-  width: 300px;
+  width: 260px;
   height: 180px;
   padding-left: 30px;
   padding-top: 30px;
 }
 
 #preview {
-  width: 300px;
+  width: 260px;
   border: 1.5px solid #17a2b8;
   background-color: var(--previewBg);
   padding: 15px;
