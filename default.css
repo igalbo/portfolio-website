@@ -397,6 +397,30 @@ h6 {
   font-size: 14px;
 }
 
+.post.flagship {
+  border: 2px solid #ffa500; /* Eye-catching orange */
+  box-shadow: 0 4px 20px rgba(255, 165, 0, 0.3); /* Glowy feel */
+  transform: scale(1.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post.flagship:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 30px rgba(255, 165, 0, 0.4);
+}
+
+.badge {
+  display: inline-block;
+  background-color: #ffa500;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
